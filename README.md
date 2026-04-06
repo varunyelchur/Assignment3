@@ -54,7 +54,7 @@ Base Cases:
 - OPT(i, 0) = 0
 - OPT(0, j) = 0
 
-'''function(A, B, val):
+```function(A, B, val):
     n is len(A)
     m is len(B)
     create dp[0..n][0..m], fill it all with zeros
@@ -77,7 +77,7 @@ Base Cases:
             i = i-1
         else:
             j = j-1
-    return length'''
+    return length```
 
 Once the table is filled, the overall runtime is O(nm). This is because we fill the table size which is n by m and each cell is O(1). The traceback is also O(n+m) so it results in O(n*m).
 
