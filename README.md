@@ -4,7 +4,11 @@ Varun Yelchur
 73222847
 
 Run using the .in files in the data and you can compare it with the corresponding .out file
-Example: python3 src/code.py < data/test1.in
+
+Example:
+Input: data/test1.in
+Output: data/test1.out 
+Run:python3 src/code.py < data/test1.in
 
 Conditions for testing:
 - Input is same format as the assignment which can be seen in the .in files
@@ -13,6 +17,7 @@ Conditions for testing:
 
 1. For the graph below, I made a graph using the time it took for all the tests to run and give an output. From the graph you can see that the times are pretty much very similar with just the first time being a little higher which could be due to it being the first test run. Input sizes are over 25 but still similar to each other and they range from 0.017 to 0.028 seconds.
 
+![Runtime Graph](data/Runtime.png)
 
 
 2. 
